@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/text_color"
+    android:padding="25dp"
+    >
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="About TimeScale"
+        android:layout_above="@+id/tvBlank1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/tvBlank1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/line"
+        android:text="" />
+    
+    <!-- Line Below -->
+    
+	<View 
+	    android:id="@+id/line"
+	    android:background="#ffffff"
+	    android:layout_width = "fill_parent"	    
+	    android:layout_height="1dip" 
+	    android:layout_above="@+id/tvBlank2" />
+	
+	<TextView
+        android:id="@+id/tvBlank2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvLine1"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLine1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBlank3"
+        android:text="
+        Timescale is an app that lists out unconventional anniversaries such as the 10000th day or the 1 Billionth Second and so on."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tvBlank3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical ="true"        
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBlank3"
+        android:text="
+        So go on and type in a date that means something such as a birthday or any anniversary."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tvBlank4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLine2"
+        android:text="" />
+    
+    <!-- Line Below -->
+    
+	<View 
+	    android:id="@+id/line2"
+	    android:background="#ffffff"
+	    android:layout_width = "fill_parent"	    
+	    android:layout_height="1dip" 
+	    android:layout_below="@+id/tvBlank4" />
+	
+	<TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/production"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

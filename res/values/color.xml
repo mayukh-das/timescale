@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="text_color">#3C5A98</color> <!-- FB:60,90,152 -->
+	<color name="sub_text">#3C5A98</color> <!-- FB:60,90,152 -->
+	<color name="heading_text">#3752CC</color> <!-- 55,82,204 -->
+	<color name="heading_text1">#399D09</color> <!-- Green -->
+    <color name="heading_text2">#0050FF</color> <!-- Bright Blue -->
+    <color name="list_items">#00287D</color> <!-- Darker Blue -->
+    <color name="gold">#F47A00</color> <!-- Gold -->
+    <color name="heading_text3">#545454</color> <!-- Gray -->
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="maroon">#800000</color> <!-- Maroon -->
+</resources>
